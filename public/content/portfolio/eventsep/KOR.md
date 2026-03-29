@@ -10,7 +10,10 @@ EventSep는 졸업논문으로 진행한 프로젝트로, 음악, 대화, 환경
 
 ## 접근 방식
 
-![EventSep spectrogram mockup](https://picsum.photos/seed/eventsep-spec/1200/700)
+![EventSep 결과 화면 01](/content/portfolio/eventsep/result01.png "w=1080 h=620")
+![EventSep 결과 화면 02](/content/portfolio/eventsep/result02.png "w=1080 h=620")
+![EventSep 결과 화면 03](/content/portfolio/eventsep/result03.png "w=1080 h=620")
+![EventSep 결과 화면 04](/content/portfolio/eventsep/result04.png "w=1080 h=620")
 
 - 사용자가 설명한 오디오 이벤트가 존재하는 시간대를 먼저 탐지
 - 해당 소리의 주파수 대역만 STFT 기반 마스킹으로 분리

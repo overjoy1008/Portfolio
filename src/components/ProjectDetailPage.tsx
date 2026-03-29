@@ -63,8 +63,8 @@ export const ProjectDetailPage: React.FC<{ id: string }> = ({ id }) => {
       animate={{ opacity: 1 }}
       className="min-h-screen bg-white pb-24"
     >
-      <div className="max-w-4xl mx-auto px-6 pt-12">
-        <div className="w-full aspect-[21/9] rounded-2xl overflow-hidden bg-neutral-100 mb-12 shadow-sm">
+      <div className="max-w-5xl mx-auto px-6 pt-12">
+        <div className="w-full aspect-[21/6.5] overflow-hidden bg-neutral-100 mb-12 shadow-sm">
           <img
             src={project.thumbnail}
             alt={project.title[language]}
@@ -140,7 +140,7 @@ export const ProjectDetailPage: React.FC<{ id: string }> = ({ id }) => {
           </div>
 
           <div className="flex flex-col gap-4">
-            <h1 id="project-title" className="font-noto text-5xl md:text-6xl font-black text-neutral-800 tracking-tighter">
+            <h1 id="project-title" className="font-noto text-4xl md:text-5xl font-black text-neutral-800 tracking-tighter">
               {project.title[language]}
             </h1>
 

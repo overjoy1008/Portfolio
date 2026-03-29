@@ -3,7 +3,7 @@ import { Project } from "./types";
 
 export const com2usProject: Project = {
   id: "com2us-employee-search",
-  thumbnail: "https://picsum.photos/seed/chatbot/800/600",
+  thumbnail: "/content/portfolio/com2us-employee-search/thumbnail.png",
   title: {
     ENG: "Self-Updating RAG for Com2us Employee Search",
     KOR: "컴투스 사내 직원 검색용 Self-Updating RAG"

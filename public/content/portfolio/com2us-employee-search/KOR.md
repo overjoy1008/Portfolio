@@ -10,7 +10,8 @@
 
 ## 시스템 구성
 
-![컴투스 RAG 시스템 목업](https://picsum.photos/seed/com2us-search/1200/700)
+![컴투스 결과 화면 01](/content/portfolio/com2us-employee-search/result01.png "w=1080 h=620")
+![컴투스 결과 화면 02](/content/portfolio/com2us-employee-search/result02.png "w=1080 h=620")
 
 - 주간 업무 보고서를 Qwen2.5-32B-Instruct-GPTQ-Int4로 요약
 - 요약 결과를 JSON 형식으로 정규화

@@ -1,9 +1,9 @@
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 import { Project } from "./types";
 
 export const tereneProject: Project = {
   id: "terene",
-  thumbnail: "https://picsum.photos/seed/terene/800/600",
+  thumbnail: "/content/portfolio/terene/thumbnail.jpg",
   title: {
     ENG: "TERENE: Booking Platform Website (Outsourcing)",
     KOR: "TERENE: 숙박 예약 플랫폼 웹사이트 외주 개발"
@@ -14,6 +14,7 @@ export const tereneProject: Project = {
     KOR: "숙박 예약 플랫폼 'TERENE' 풀스택 개발"
   },
   links: [
+    { type: "github", url: "https://github.com/overjoy1008/TereneHandover", icon: Github },
     { type: "demo", url: "https://terene.kr", icon: ExternalLink }
   ],
   contentPath: {

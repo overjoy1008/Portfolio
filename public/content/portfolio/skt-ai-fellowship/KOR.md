@@ -22,7 +22,9 @@
 
 ## 구현 내용
 
-![SKT VR assistant mockup](https://picsum.photos/seed/skt-vr-assistant/1200/700)
+![SKT 결과 화면 01](/content/portfolio/skt-ai-fellowship/result01.png "w=1080 h=620")
+![SKT 결과 화면 02](/content/portfolio/skt-ai-fellowship/result02.png "w=1080 h=620")
+![SKT 결과 화면 03](/content/portfolio/skt-ai-fellowship/result03.png "w=1080 h=620")
 
 - Unity 기반 VR 학습용 씬 개발
 - 업로드한 학습 이미지를 FastAPI 서버 파이프라인에 연결

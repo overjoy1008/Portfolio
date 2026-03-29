@@ -10,7 +10,10 @@ The main objective was to let a user describe a desired sound in plain language 
 
 ## Method
 
-![EventSep waveform research mockup](https://picsum.photos/seed/eventsep-wave/1200/700)
+![EventSep result 01](/content/portfolio/eventsep/result01.png "w=1080 h=620")
+![EventSep result 02](/content/portfolio/eventsep/result02.png "w=1080 h=620")
+![EventSep result 03](/content/portfolio/eventsep/result03.png "w=1080 h=620")
+![EventSep result 04](/content/portfolio/eventsep/result04.png "w=1080 h=620")
 
 - Detect the time range where the described audio event exists
 - Apply STFT-based masking only to the frequency region of the target sound

@@ -10,7 +10,8 @@ This project was built by a four-person team consisting of planning, design, and
 
 ## What I Built
 
-![Blank-It quiz generation mockup](https://picsum.photos/seed/blankit-quiz/1200/700)
+![Blank-It result 01](/content/portfolio/blank-it/result01.png "w=1080 h=620")
+![Blank-It result 02](/content/portfolio/blank-it/result02.png "w=1080 h=620")
 
 - Implemented the frontend with React, Tailwind CSS, and Next.js
 - Designed prompt behavior for quiz generation using ChatGPT-3.5

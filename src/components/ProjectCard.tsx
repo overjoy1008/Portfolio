@@ -49,8 +49,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       onClick={handleCardClick}
       className="group cursor-pointer flex flex-col bg-white border border-neutral-100 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.33%-16px)] xl:w-[calc(33.33%-16px)] h-[380px]"
     >
-      {/* Thumbnail - 4:3 Aspect Ratio */}
-      <div className="relative w-full aspect-[4/3] overflow-hidden bg-neutral-100">
+      {/* Thumbnail - 2.5:1 Aspect Ratio */}
+      <div className="relative w-full aspect-[2.5/1] overflow-hidden bg-neutral-100">
         <img
           src={project.thumbnail}
           alt={project.title[language]}

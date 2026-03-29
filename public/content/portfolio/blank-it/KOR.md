@@ -10,7 +10,8 @@
 
 ## 구현 내용
 
-![뚫어보카 서비스 목업](https://picsum.photos/seed/blankit-ui/1200/700)
+![뚫어보카 결과 화면 01](/content/portfolio/blank-it/result01.png "w=1080 h=620")
+![뚫어보카 결과 화면 02](/content/portfolio/blank-it/result02.png "w=1080 h=620")
 
 - React, Tailwind CSS, Next.js 기반 프론트엔드 구현
 - ChatGPT-3.5를 활용한 문제 생성 프롬프트 설계

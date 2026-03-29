@@ -22,7 +22,9 @@ The service was built to let users interact with learning content inside a VR en
 
 ## What I Implemented
 
-![SKT VR scene mockup](https://picsum.photos/seed/skt-vr-scene/1200/700)
+![SKT result 01](/content/portfolio/skt-ai-fellowship/result01.png "w=1080 h=620")
+![SKT result 02](/content/portfolio/skt-ai-fellowship/result02.png "w=1080 h=620")
+![SKT result 03](/content/portfolio/skt-ai-fellowship/result03.png "w=1080 h=620")
 
 - Built VR learning scenes in Unity
 - Connected uploaded learning images to a FastAPI server pipeline

@@ -4,15 +4,16 @@
 
 TERENE is an accommodation booking platform that I built as a solo full-stack developer in collaboration with a web UI designer. The goal was to turn a manual reservation workflow into a real service that could handle booking, payment, notification, and member management in one flow.
 
-![TERENE landing page mockup](https://picsum.photos/seed/terene-gallery-1/1280/820 "w=1080 h=620")
-![TERENE reservation flow mockup](https://picsum.photos/seed/terene-gallery-2/1280/820 "w=1080 h=620")
-![TERENE room detail mockup](https://picsum.photos/seed/terene-gallery-3/1280/820 "w=1080 h=620")
-![TERENE member dashboard mockup](https://picsum.photos/seed/terene-gallery-4/1280/820 "w=1080 h=620")
-![TERENE admin console mockup](https://picsum.photos/seed/terene-gallery-5/1280/820 "w=1080 h=620")
+![TERENE result 01](/content/portfolio/terene/result01.png "w=1080 h=620")
+![TERENE result 02](/content/portfolio/terene/result02.png "w=1080 h=620")
+![TERENE result 03](/content/portfolio/terene/result03.png "w=1080 h=620")
+![TERENE result 04](/content/portfolio/terene/result04.png "w=1080 h=620")
+![TERENE result 05](/content/portfolio/terene/result05.png "w=1080 h=620")
+![TERENE result 06](/content/portfolio/terene/result06.png "w=1080 h=620")
+![TERENE result 07](/content/portfolio/terene/result07.jpg "w=1080 h=620")
+![TERENE result 08](/content/portfolio/terene/result08.png "w=1080 h=620")
 
 ## What I Built
-
-![TERENE booking flow mockup](https://picsum.photos/seed/terene-flow/1200/700 "w=980")
 
 - Member and guest reservation flows
 - Payment integration with Toss Payments API

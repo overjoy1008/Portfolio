@@ -10,7 +10,8 @@ In practice, project ownership changed often and work was spread across many tea
 
 ## System Design
 
-![Com2us RAG pipeline mockup](https://picsum.photos/seed/com2us-rag/1200/700)
+![Com2us result 01](/content/portfolio/com2us-employee-search/result01.png "w=1080 h=620")
+![Com2us result 02](/content/portfolio/com2us-employee-search/result02.png "w=1080 h=620")
 
 - Weekly reports were summarized by Qwen2.5-32B-Instruct-GPTQ-Int4
 - The summaries were normalized into JSON format
