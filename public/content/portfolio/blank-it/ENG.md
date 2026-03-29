@@ -1,5 +1,3 @@
-# Blank-It
-
 ## Overview
 
 Ttuleoboka is an LLM-based web service that generates fill-in-the-blank exam questions from uploaded university lecture PPT materials.

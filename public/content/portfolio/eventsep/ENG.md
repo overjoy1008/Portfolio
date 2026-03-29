@@ -1,5 +1,3 @@
-# EventSep
-
 ## Overview
 
 EventSep was my graduation thesis project focused on separating only the target sound described in natural language from mixed audio containing multiple events such as music, speech, and environmental noise.

@@ -1,5 +1,3 @@
-# VR 기반 AI 학습 어시스턴트 (SKT AI Fellowship)
-
 **기간:** 2024.06 - 2024.10 (5개월)
 
 **소속:** SK Telecom / AI Fellowship 6기

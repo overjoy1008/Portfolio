@@ -1,5 +1,3 @@
-# TERENE
-
 ## Overview
 
 TERENE is an accommodation booking platform that I built as a solo full-stack developer in collaboration with a web UI designer. The goal was to turn a manual reservation workflow into a real service that could handle booking, payment, notification, and member management in one flow.

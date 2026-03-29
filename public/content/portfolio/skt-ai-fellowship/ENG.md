@@ -1,5 +1,3 @@
-# VR-Based AI Learning Assistant
-
 ## Overview
 
 This project was developed during the SKT AI Fellowship as a VR-based AI learning assistant. I worked in a three-person developer team and was responsible for VR device integration and AI feature implementation.

@@ -1,5 +1,3 @@
-# Self-Updating RAG for Com2us Employee Search
-
 ## Overview
 
 This project was an internal AI chatbot designed to help employees find the right person in charge of a task more quickly. I developed it during my Com2us internship under the mentoring of a senior AI/ML engineer, and the final system was actually used by internal developers.
