@@ -11,6 +11,7 @@ import { ResumeSection } from "../sections/ResumeSection";
 import { SkillsSection } from "../sections/SkillsSection";
 import { PortfolioSection } from "../sections/PortfolioSection";
 import { EducationSection } from "../sections/EducationSection";
+import { CertificationsSection } from "../sections/CertificationsSection";
 import { InspireSection } from "../sections/InspireSection";
 import { useLanguage } from "../context/LanguageContext";
 
@@ -84,6 +85,7 @@ export function HomePage() {
           <SkillsSection id="skills" />
           <PortfolioSection id="portfolio" />
           <EducationSection id="education" />
+          <CertificationsSection id="certifications" />
           <InspireSection id="inspire" />
         </div>
       </main>

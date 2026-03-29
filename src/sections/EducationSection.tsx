@@ -10,15 +10,16 @@ export const EducationSection = ({ id }: { id?: string }) => {
   const educationData = [
     {
       period: "2021 ~ 2026",
-      title: language === 'ENG'
-        ? "Korea University | Electrical Engineering & Computer Science (Double Major)"
-        : "고려대학교 | 전기전자공학부 & 컴퓨터학과 (이중전공)",
+      title:
+        language === "ENG"
+          ? "Korea University | Electrical Engineering & Computer Science (Double Major)"
+          : "고려대학교 | 전기전자공학부 & 컴퓨터학과(이중전공)",
       skills: "",
       description: [
-        language === 'ENG' ? "Bachelor's Degree" : "학사 학위",
-        language === 'ENG' ? "Grade: 4.15/4.5" : "학점: 4.15/4.5"
-      ]
-    }
+        language === "ENG" ? "Bachelor's Degree" : "학사 졸업 예정 (2026.08)",
+        language === "ENG" ? "**Grade: 4.15/4.5**" : "**학점: 4.15/4.5**",
+      ],
+    },
   ];
 
   return (
