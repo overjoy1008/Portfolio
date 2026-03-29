@@ -1,10 +1,14 @@
 node_modules/
 .next/
+.render-next/
+out/
 build/
 dist/
 coverage/
 .DS_Store
 *.log
 *.tsbuildinfo
+main.tex
+main.bib
 .env*
 !.env.example

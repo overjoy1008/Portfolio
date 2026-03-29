@@ -1,45 +1,54 @@
+**Period:** 2024.06 - 2024.10 (5 months)
+
+**Affiliation:** SK Telecom / AI Fellowship 6
+
+**Role:** AI Fellow (VR/AI Development), Three-person Undergraduate Team, VR Infrastructure and AI Feature Implementation
+
 ## Overview
 
-This project was developed during the SKT AI Fellowship as a VR-based AI learning assistant. I worked in a three-person developer team and was responsible for VR device integration and AI feature implementation.
-
-## Core Experience
-
-The service was built to let users interact with learning content inside a VR environment, ask questions by voice, and receive either an AI-generated explanation or a generated 3D model depending on the intent of the question.
-
-## Tech Stack
-
-- Unity
-- C#
-- Meta Quest 3
-- Meta XR All-In-One SDK
-- FastAPI
-- U2-Net
-- Wit.ai
-- ChatGPT-4o
-- Meshy.ai API
-
-## What I Implemented
+This project was an AI learning assistant built for a Meta Quest 3-based VR environment. The team had no developer who was already proficient with Unity, and one team member's sudden overseas schedule made in-person testing difficult, yet we still had to complete the project successfully. I analyzed the necessary use cases, split the work into VR and Unity, 2D-to-3D, and LLM domains, and took ownership of the most difficult area, VR and Unity development, while leading overall system integration.
 
 ![SKT result 01](/content/portfolio/skt-ai-fellowship/result01.png "w=1080 h=620")
 ![SKT result 02](/content/portfolio/skt-ai-fellowship/result02.png "w=1080 h=620")
 ![SKT result 03](/content/portfolio/skt-ai-fellowship/result03.png "w=1080 h=620")
 
-- Built VR learning scenes in Unity
-- Connected uploaded learning images to a FastAPI server pipeline
-- Processed images with U2-Net for background removal and artifact cleanup
-- Imported 3D models generated through Meshy.ai back into the Unity scene
-- Implemented voice question handling on the VR device
-- Built intent classification for LLM question answering, 3D model generation, and out-of-scope requests
+## Skills
 
-## Performance
+- Unity
+- C#
+- Meta Quest 3 VR
+- Python
+- LLM
+- Meshy.ai API
+- STT
+- FastAPI
+- AWS S3
+- AWS EC2
 
-By building and fine-tuning the intent classification dataset, the system achieved about 97% confidence with 1 to 2 seconds of latency.
+## Pain Point & Project Goals
 
-## Delivery
+- **Team collaboration issue:** The team consisted of three undergraduate students, and one member's overseas schedule made it difficult to gather and perform VR device compilation and testing together.
+- **Technical capability issue:** No one on the team was already proficient with Unity, which made carrying out a VR-centered project itself a high barrier.
+- **Goal:** Create a structure in which each teammate could work independently despite limited in-person collaboration, and ultimately build a learning assistant that integrated voice questions, 3D generation, and AI responses inside a VR environment.
 
-Depending on the detected user intent, the server returned either:
+## Development Details
 
-- an LLM response based on preprocessed textbook and wiki data, or
-- a generated 3D model result for the Unity scene
+- **Development area split:** I analyzed the required use cases and divided the work into VR and Unity, 2D-to-3D, and LLM areas so that each teammate could work independently.
+- **VR and Unity infrastructure development:** I self-studied Unity for a month, synchronized the Meta Quest 3 environment, and directly implemented the learning-oriented VR scenes and interaction features.
+- **Server API integration:** I integrated each teammate's feature through server APIs and succeeded in real-time integration with Unity, while modularizing the system so that weekly remote collaboration was enough for immediate system integration later.
+- **AI pipeline implementation:** I connected voice question handling, intent classification, 2D image-to-3D conversion, and LLM response generation into a single VR learning experience.
+- **Pivot response:** When the company requested a topic pivot midway through the project, the modular structure allowed us to preserve the overall logic and server functionality while switching quickly by changing only part of the input data.
 
-This project helped me design a full VR-AI interaction pipeline across device, server, and model layers.
+## Troubleshooting & Solving
+
+- **Problem situation:** The project was difficult to complete because of the team's lack of Unity experience, limited in-person testing opportunities, and an unexpected pivot request in the middle of development.
+- **Cause analysis:** Beyond the raw technical difficulty, if the team's collaboration structure was not made explicit, integration would continue to be delayed in a project heavily dependent on VR devices.
+- **Solution:** I first divided the system clearly by use case so that parallel development was possible, then took responsibility for VR and Unity plus system integration by connecting each feature at the API level. I also designed a clear intent-classification structure so that the system could achieve useful performance with a relatively small amount of data.
+- **Result:** Even with limited data, we achieved 97% STT-based intent classification accuracy and about 2 seconds of response time, and successfully finished the final demo.
+
+## Quantitative Results
+
+- **Project completion:** Successfully completed the project through modular task division and an integration-friendly structure despite multiple constraints.
+- **Performance achieved:** Reached 97% STT intent classification accuracy and about 2 seconds of response time.
+- **Flexible system design:** Built a structure that could respond quickly to a pivot by keeping the overall system intact and replacing only some inputs.
+- **Final demo:** [Final demo video](https://drive.google.com/file/d/1WGmMBFYE4gbls7s0fGj0YVqr5cjdAzlU/view?usp=drive_link)
